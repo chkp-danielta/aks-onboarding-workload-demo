@@ -1,0 +1,14 @@
+Used for demo/lab only.
+Updates are done on a best-effort basis. 
+
+The template are using ENV variables for Azurerm provider;
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+
+e.g ARM_TENANT_ID & ARM_SUBSCRIPTION_ID
+
+Change region etc can be done in variables.tf file.
+Update variable "ssh_public_key" or remove this configuration from k8.tf and varaibles.tf
+
+
+to-do:
+add output of dns-zone ID

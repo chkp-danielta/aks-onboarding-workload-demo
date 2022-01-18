@@ -1,0 +1,5 @@
+terraform.tfstate
+terraform.tfstate*
+id_rsa.pub
+terraform-key.pem
+.terraform*
